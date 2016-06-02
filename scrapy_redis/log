@@ -1,0 +1,47 @@
+495:C 19 Dec 11:28:58.787 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
+495:M 19 Dec 11:28:58.790 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.5 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 495
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+495:M 19 Dec 11:28:58.798 # Server started, Redis version 3.0.5
+495:M 19 Dec 11:28:58.798 * The server is now ready to accept connections on port 6379
+495:M 19 Dec 11:35:55.339 * 100 changes in 300 seconds. Saving...
+495:M 19 Dec 11:35:55.339 * Background saving started by pid 577
+577:C 19 Dec 11:35:55.343 * DB saved on disk
+495:M 19 Dec 11:35:55.440 * Background saving terminated with success
+495:M 19 Dec 11:36:56.098 * 10000 changes in 60 seconds. Saving...
+495:M 19 Dec 11:36:56.098 * Background saving started by pid 579
+579:C 19 Dec 11:36:56.310 * DB saved on disk
+495:M 19 Dec 11:36:56.400 * Background saving terminated with success
+495:M 19 Dec 11:37:57.020 * 10000 changes in 60 seconds. Saving...
+495:M 19 Dec 11:37:57.023 * Background saving started by pid 581
+581:C 19 Dec 11:37:57.320 * DB saved on disk
+495:M 19 Dec 11:37:57.330 * Background saving terminated with success
+495:M 19 Dec 11:38:58.067 * 10000 changes in 60 seconds. Saving...
+495:M 19 Dec 11:38:58.070 * Background saving started by pid 584
+584:C 19 Dec 11:38:58.461 * DB saved on disk
+495:M 19 Dec 11:38:58.485 * Background saving terminated with success
+495:M 19 Dec 11:43:59.071 * 100 changes in 300 seconds. Saving...
+495:M 19 Dec 11:43:59.073 * Background saving started by pid 711
+711:C 19 Dec 11:43:59.467 * DB saved on disk
+495:M 19 Dec 11:43:59.490 * Background saving terminated with success
+495:signal-handler (1453005474) Received SIGTERM scheduling shutdown...
+495:M 17 Jan 12:37:54.335 # User requested shutdown...
+495:M 17 Jan 12:37:54.335 * Saving the final RDB snapshot before exiting.
+495:M 17 Jan 12:37:55.356 * DB saved on disk
+495:M 17 Jan 12:37:55.356 # Redis is now ready to exit, bye bye...
